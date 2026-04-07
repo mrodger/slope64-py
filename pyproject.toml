@@ -1,0 +1,15 @@
+[project]
+name = "slope64-py"
+version = "0.1.0"
+description = "Python reimplementation of Slope64 FEM slope stability analysis"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[project.scripts]
+slope64 = "slope64.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["slope64*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
