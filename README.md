@@ -1,6 +1,7 @@
 # Slope64 — Python Rebuild
 
-An attempt to convert D.V. Griffiths' Slope64 finite element slope stability program from Fortran to Python, with the goal of making it more accessible to people who need it but can't run the original.
+An attempt to convert D.V. Griffiths' Slope64 finite element slope stability program from Fortran to python, with the goal of making it more accessible to people who need it but can't run the original.
+Still a work in progress, I have an alternative  for now.
 
 ---
 
